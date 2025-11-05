@@ -1,0 +1,3 @@
+cd /d C:\xampp\mysql\bin && ^
+mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS quizhut_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;" && ^
+mysql -u root -p quizhut_db < C:\xampp\htdocs\quizhut\backup_quizhut_db.sql
